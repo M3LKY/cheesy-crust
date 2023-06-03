@@ -9,7 +9,7 @@ const Menu = () => {
   return (
     <section id='menu' className='min-h-[1630px] mb-0'>
       {/*bg*/}
-      <div className='h-[1800px] bg-menu absolute w-full max-w-[1800px] -z-0'></div>
+      <div className='h-[2000px] bg-menu absolute w-full max-w-[1800px] -z-0'></div>
       <div className='relative z-10 top-72 lg:top-52'>
         <motion.div variants={staggerContainer} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.1 }} className='container mx-auto flex flex-col items-center text-center'>
           <motion.h2 variants={fadeIn('down', 'tween', 0.2, 1.6)} className='h2 capitalize text-white max-w-[400px] text-center' style={{
@@ -83,8 +83,6 @@ const Menu = () => {
           </div>
         </div>
       </motion.div>
-      <Experiences />
-      <Footer />
     </section>
   );
 };

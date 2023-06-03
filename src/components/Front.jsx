@@ -15,7 +15,7 @@ const Hero = () => {
     });
   };
   return (
-    <section className='min-h-[980px] bg-hero bg-cover bg-right'>
+    <section id="front" className='min-h-[980px] bg-hero bg-cover bg-right'>
       <Header />
       <div className='container mx-auto min-h-[980px] flex justify-center items-center'>
         <motion.div variants={staggerContainer(0.3, 1)} initial='hidden' whileInView={'show'} className='text-center flex flex-col items-center'>
@@ -28,7 +28,7 @@ const Hero = () => {
             textShadow: '2px 2px 4px rgba(0, 0, 0, 0.888)',
           }}>{title}</motion.h1>
 
-          <motion.p variants={fadeIn('down', 'tween', 0.4, 1.1)} className='text-white max-w-[540px] mb-8 text-shadow-sm' style={{
+          <motion.p variants={fadeIn('down', 'tween', 0.4, 1.1)} className='text-white max-w-[540px] mb-8 text-shadow-sm' style={{ 
             textShadow: '2px 2px 4px rgba(0, 0, 0, 0.888)',
           }}>{subtitle}</motion.p>
 

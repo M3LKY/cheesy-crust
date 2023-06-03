@@ -23,11 +23,11 @@ import img2 from '../src/assets/img/experiences/img2.jpeg';
 import img3 from '../src/assets/img/experiences/img.jpg';
 
 export const navData = [
-  { href: '#', name: 'Home' },
-  { href: '/#about', name: 'About' },
-  { href: '/#menu', name: 'Menu' },
-  { href: '/#critics', name: 'Experiences' },
-  { href: '/#contact', name: 'Contact' },
+  { href: 'front', name: 'Home' },
+  { href: 'about', name: 'About' },
+  { href: 'menu', name: 'Menu' },
+  { href: 'critics', name: 'Experiences' },
+  { href: 'contact', name: 'Contact' },
 ];
 
 
